@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    caret-color: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #008fff #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fffdfd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #008fff;
+    border-radius: 10px;
+}

@@ -1,0 +1,6 @@
+/* Completely hide the slick-dots container */
+.slick-dots {
+    display: none !important; /* Prevent dots from showing */
+    visibility: hidden !important; /* Ensures they don't occupy any space */
+    height: 0 !important; /* Prevents them from taking up vertical space */
+  }
