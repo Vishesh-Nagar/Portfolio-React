@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import Resume from "./Vishesh Nagar Software Developer.pdf";
 import heroimg from "../../assets/Profile.jpg";
 import { ReactTyped } from "react-typed";
 import { FaLinkedin, FaGithub} from "react-icons/fa";
+
+const Resume = "https://drive.google.com/uc?export=download&id=1har2seFgTZf-HGefGRFyJS_OBM02rFYA";
 
 export default function Home() {
     return (
@@ -55,13 +56,14 @@ export default function Home() {
                         </p>
 
                         <div className="flex space-x-4 md:space-x-6 md:mt-0">
-                            <a href={Resume} download>
+                            <a href={Resume} target="_blank" rel="noopener noreferrer">
+
                                 <button
                                     data-aos="zoom-in"
                                     data-aos-delay="250"
                                     className="w-full md:w-auto px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 active:transform active:scale-90"
                                 >
-                                    Download CV
+                                    Download Resume
                                 </button>
                             </a>
                         </div>
